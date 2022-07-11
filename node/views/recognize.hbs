@@ -112,7 +112,7 @@
         const formData = new FormData();
         formData.append("audio_data", blob, filename);
 
-        fetch('/recognize', {
+        fetch('./recognize', {
           method: 'POST',
           body: formData
         }).then(async result => {

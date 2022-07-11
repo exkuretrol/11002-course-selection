@@ -1,11 +1,13 @@
 .vscode
 
 python/__pycache__
+__pycache__
 python/poetry.lock
 
 node/node_modules
 node/package-lock.json
 node/sound_files
+node/tmp
 node/test.js
 sound_files
 .env
